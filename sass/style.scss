@@ -100,9 +100,9 @@ header {
     }
 }
 @media only screen and (max-width: 840px) {
-    html {
-        overflow-x: hidden;
-    }
+   body{
+    overflow-x: hidden;
+   }
     .header__nav {
         padding: 25px 40px;
         justify-content: space-between;
@@ -129,6 +129,7 @@ header {
         display: flex;
         flex-direction: column;
         background-color: #000;
+        display: none;
         transform: translateX(100%);
         transition: 0.7s;
     }
