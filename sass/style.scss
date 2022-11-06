@@ -73,7 +73,7 @@ header {
         margin: 5px;
         height: 2px;
         width: 25px;
-        transition: 0.7s linear;
+        transition: 0.4s linear;
         background-image: linear-gradient(#0278ed, rgb(188, 206, 255));
     }
 }
@@ -100,9 +100,9 @@ header {
     }
 }
 @media only screen and (max-width: 840px) {
-   body{
-    overflow-x: hidden;
-   }
+    body {
+        overflow-x: hidden;
+    }
     .header__nav {
         padding: 25px 40px;
         justify-content: space-between;
@@ -125,13 +125,13 @@ header {
         justify-content: center;
         height: 100vh;
         top: 0;
-        width: 40%;
+        width: 30%;
         display: flex;
         flex-direction: column;
         background-color: #000;
         display: none;
         transform: translateX(100%);
-        transition: 0.7s;
+        transition: 0.5s;
     }
     .nav__active {
         transform: translate(0);
@@ -212,6 +212,7 @@ header {
 .photography__phone__card {
     display: flex;
     gap: 16px;
+    flex-wrap: wrap;
     justify-content: center;
     .card__box {
         position: relative;
@@ -259,4 +260,24 @@ header {
     .phone--card--2--image {
         background-image: url(../images/phone-2.png);
     }
+}
+// ---------------------------------------------------------
+.row {
+    position: relative;
+    display: flex;
+    padding-top: 80px;
+    gap: 178px;
+    padding-bottom: 140px;
+    justify-content: center;
+
+    .fh5co-counter {
+        font-size: 96px;
+    }
+}
+.text-center{
+      position: relative;
+    text-align: center;
+}
+.right__plus {
+    font-size: 96px;
 }
