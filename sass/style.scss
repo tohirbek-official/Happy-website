@@ -686,11 +686,39 @@ section.light-mode {
     .row {
         flex-direction: column;
     }
+    .photography__title__text{
+        width: 207px;
+    }
+    .dark__title__bout{
+        span{
+            width: 207px;
+        }
+        p{
+            width: 307px;
+        }
+    }
 }
 @media screen and (max-width: 689px) {
     .techno__content,
     .left__techno__content {
         flex-wrap: wrap;
         gap: 10px;
+    }
+    section.dark-mode{
+        top: -113px;
+    }
+    .dark__phone{
+        img{
+            width: 307px;
+        }
+    }
+  .dark__content .dark__border__phone__bootom{
+        margin-top: -110px;
+    }
+    .download__content p {
+        width: 370px;
+    }
+    .download__content{
+        padding: 100px 47px;
     }
 }
