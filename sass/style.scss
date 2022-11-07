@@ -604,6 +604,10 @@ section.light-mode {
         }
     }
 }
+.flex__faq{
+    display: flex;
+    flex-wrap: wrap;
+}
 .download__content {
     text-align: center;
     padding: 100px 90px;
@@ -681,9 +685,7 @@ section.light-mode {
             width: 450px;
         }
     }
-    .flex__faq{
-        flex-wrap: wrap;
-    }
+   
     .right__plus {
         font-size: 76px;
     }
