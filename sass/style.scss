@@ -143,6 +143,7 @@ header {
 // ---------------------------reponsive nav------------------------
 .main__content {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: -10px;
     padding: 100px 0 0px 0;
@@ -184,6 +185,7 @@ header {
         }
     }
     .main__phone__image {
+        margin-top: 20px;
         img {
             width: 100%;
         }
@@ -473,6 +475,7 @@ section.light-mode {
     .pricing__cost__flex {
         padding-top: 41px;
         display: flex;
+        flex-wrap: wrap;
         gap: 16px;
         justify-content: center;
     }
@@ -572,6 +575,7 @@ section.light-mode {
     }
     .word__about__testimonials {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 16px;
         .content__testimonials__box {
@@ -616,8 +620,32 @@ section.light-mode {
         font-weight: 400;
         font-size: 18px;
     }
-    img{
+    img {
         padding-top: 27px;
+    }
+}
+.faq__content {
+    padding: 110px 90px;
+    h1 {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    p {
+        padding-top: 16px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    p {
+        width: 572px;
+    }
+    .flex__faq {
+        gap:20px;
+        flex-wrap: wrap;
+        display: flex;
+    }
+    .faq__list__left{
+        padding-top: 42px;
     }
 }
 @media screen and (max-width: 1045px) {

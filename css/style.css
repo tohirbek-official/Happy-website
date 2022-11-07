@@ -157,6 +157,7 @@ header {
 }
 .main__content {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: -10px;
   padding: 100px 0 0px 0;
@@ -195,6 +196,9 @@ header {
 }
 .main__content .home__button button:hover {
   background-color: #444343;
+}
+.main__content .main__phone__image {
+  margin-top: 20px;
 }
 .main__content .main__phone__image img {
   width: 100%;
@@ -485,6 +489,7 @@ section.light-mode {
 .pricing__content .pricing__cost__flex {
   padding-top: 41px;
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   justify-content: center;
 }
@@ -581,6 +586,7 @@ section.light-mode {
 }
 .testimonials__word .word__about__testimonials {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 16px;
 }
@@ -626,6 +632,30 @@ section.light-mode {
 }
 .download__content img {
   padding-top: 27px;
+}
+
+.faq__content {
+  padding: 110px 90px;
+}
+.faq__content h1 {
+  font-size: 32px;
+  line-height: 36px;
+}
+.faq__content p {
+  padding-top: 16px;
+  font-size: 15px;
+  line-height: 20px;
+}
+.faq__content p {
+  width: 572px;
+}
+.faq__content .flex__faq {
+  gap: 20px;
+  flex-wrap: wrap;
+  display: flex;
+}
+.faq__content .faq__list__left {
+  padding-top: 42px;
 }
 
 @media screen and (max-width: 1045px) {
