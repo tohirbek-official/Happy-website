@@ -641,7 +641,6 @@ section.light-mode {
     }
     .flex__faq {
         gap:20px;
-        flex-wrap: wrap;
         display: flex;
     }
     .faq__list__left{
@@ -668,6 +667,16 @@ section.light-mode {
     }
     .fh5co-counter {
         font-size: 76px !important;
+    }
+    .faq__content {
+       
+        padding: 110px 0px;
+        p{
+            width: 450px;
+        }
+    }
+    .flex__faq{
+        flex-wrap: wrap;
     }
     .right__plus {
         font-size: 76px;
